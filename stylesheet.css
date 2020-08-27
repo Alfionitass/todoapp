@@ -1,0 +1,39 @@
+body {
+    margin: 0 auto;
+    background-color: #C4C4C4;
+}
+div {
+    width: 292px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+input {
+    background: #EFEFEF;
+    border: 1px solid #818181;
+    padding: 6px 12px;
+}
+button {
+    background: #FF6F6F;
+    border: 0;
+    padding: 6px 12px;
+    color: #fff;
+}
+li {
+    float: left;
+    list-style-type: none;
+    width: 323px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    right: 55px;
+    position: relative;
+    
+}
+/*.list {
+    margin-left: 6px;
+} 
