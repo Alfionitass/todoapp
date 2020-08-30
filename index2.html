@@ -4,17 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <title>Document</title>
+    <title>To Do App</title>
 </head>
 <body>
-    <div>
-        <input type="text" value="Tambah List">
-        <button>Tambah</button>
-        <ul>
-            <li>List 1</li>
-            <li>List 2</li>
-            <li>List 3</li>
+    <div class="container">
+        <p>
+            <label for="new-task">List to-do</label>
+            <input id="new-task" type="text" placeholder="Add to-do">
+            <button class="add">Add</button>
+        </p>
+        <h3>TODO</h3>
+        <ul id="incomplete-tasks">
+            <li class="editMode">
+                <input type="checkbox"><label>Belajar HTML</label>
+                <input type="text" value="Belajar HTML"><button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+            <li class="editMode">
+                <input type="checkbox"><label>Belajar CSS</label>
+                <input type="text" value="Belajar CSS"><button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+            <li class="editMode">
+                <input type="checkbox"><label>Belajar Javascript</label>
+                <input type="text" value="Belajar Javascript"><button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
         </ul>
+
+<!--    <h3>Completed to-do</h3>
+        <ul id="completed tasks">
+            <li>
+                <input type="checkbox" checked><label>List 4</label>
+                <input type="text"><button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+        </ul> -->
     </div>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
